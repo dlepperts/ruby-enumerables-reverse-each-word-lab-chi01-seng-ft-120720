@@ -3,7 +3,7 @@ def reverse_each_word(string)
   print list_string
   count = 0
   while count < list_string.length do
-    word[count] = word[count].reverse
+    list_string[count] = list_string[count].reverse
   end
   print list_string
   #list_string.collect do {|word| word.reverse}
