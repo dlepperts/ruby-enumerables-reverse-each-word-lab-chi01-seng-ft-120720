@@ -4,7 +4,7 @@ def reverse_each_word(string)
   for word in list_string do
     word.reverse
   end
-  list_string
+  print list_string
   #list_string.collect do {|word| word.reverse}
 end
 
