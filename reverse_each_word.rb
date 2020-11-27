@@ -6,7 +6,6 @@ def reverse_each_word(string)
     count += 1
   end
   list_string.collect {|word| word.reverse}
-  print list_string
   string = list_string.join(" ")
   string
   #list_string.collect do {|word| word.reverse}
