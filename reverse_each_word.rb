@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   list_string = string.split(" ")
-  print list_string
+ # print list_string
   count = 0
   while count < list_string.length do
     list_string[count] = list_string[count].reverse
